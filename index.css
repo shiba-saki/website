@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* rename box-shadow */
+  .layer-0 {
+    @apply border border-black/[.05] shadow-0-layer;
+  }
+  .layer-1 {
+    @apply border border-black/[.05] shadow-1-layer;
+  }
+  .layer-2 {
+    @apply border border-black/[.05] shadow-2-layer;
+  }
+
+  .text-display-x-large {
+    font-size: 2.625rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    color: #27272a;
+  }
+
+  .text-display-large {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #27272a;
+  }
+
+  .text-display-medium {
+    font-size: 1.625rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: #27272a;
+  }
+
+  .text-pageheading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: #27272a;
+  }
+
+  .text-display-small {
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #27272a;
+  }
+
+  .text-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #27272a;
+  }
+
+  .text-inputs {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    color: #27272a;
+  }
+
+  .text-button {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #27272a;
+  }
+
+  .text-body {
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+    color: #27272a;
+  }
+
+  .text-style-2 {
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #52525b;
+  }
+
+  .text-style-3 {
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000;
+  }
+
+  .text-subheading {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: #27272a;
+    text-transform: uppercase;
+  }
+
+  .text-caption {
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 1rem;
+    color: #27272a;
+  }
+
+  .text-style {
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+}
+
+@layer components {
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100;
+  }
+}
