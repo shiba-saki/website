@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import HeroPhoto from './components/HeroPhoto.vue'
+</script>
+
 <template>
-  <div>Front page</div>
+  <HeroPhoto />
 </template>

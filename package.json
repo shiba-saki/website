@@ -27,6 +27,8 @@
   "dependencies": {
     "@nuxtjs/color-mode": "^3.3.0",
     "@vueuse/nuxt": "^10.2.0",
-    "clsx": "^1.2.1"
+    "animate.css": "^4.1.1",
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.8"
   }
 }
