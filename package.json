@@ -8,7 +8,20 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
+    "@antfu/eslint-config-vue": "^0.39.5",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
     "content-wind": "latest",
-    "nuxt": "latest"
+    "eslint": "^8.43.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-storybook": "^0.6.12",
+    "eslint-plugin-tailwindcss": "^3.12.1",
+    "eslint-plugin-testing-library": "^5.11.0",
+    "nuxt": "latest",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "vue-eslint-parser": "^9.3.1"
   }
 }
