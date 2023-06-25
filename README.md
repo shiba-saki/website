@@ -4,14 +4,16 @@ My website made by [Content Wind](https://content-wind.nuxt.space) theme.
 
 ## Setup
 
+Need to install Node.js version 18 or later
+
 ```bash
-npm install
+yarn
 ```
 
 ## Development
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) to see your app.
