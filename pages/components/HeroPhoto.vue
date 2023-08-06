@@ -44,10 +44,10 @@ onUnmounted(() => clearInterval(intervalId))
       <div
         v-for="date in daysPassed"
         :key="date.type"
-        class="animate__animated animate__pulse animate__slow flex h-24 w-24 animate-ping flex-col items-center justify-center rounded-full bg-cyan-800/80 text-white"
+        class="animate__animated animate__pulse animate__slow flex h-16 w-16 animate-ping flex-col items-center justify-center rounded-full bg-cyan-800/80 text-white sm:h-24 sm:w-24"
       >
-        <p class="text-4xl">{{ date.value }}</p>
-        <p class="">{{ date.type }}</p>
+        <p class="text-2xl md:text-4xl">{{ date.value }}</p>
+        <p class="text-xs md:text-base">{{ date.type }}</p>
       </div>
     </div>
     <img src="/mask-bottom.png" alt="mask" class="absolute bottom-0" />
