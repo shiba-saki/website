@@ -33,6 +33,7 @@ onUnmounted(() => clearInterval(intervalId))
 <template>
   <!-- eslint-disable tailwindcss/no-custom-classname -->
   <div
+    id="header"
     class="relative flex h-screen flex-col items-center justify-center bg-black/50 bg-[url('/cover.jpg')] bg-cover bg-[center_25%] bg-blend-multiply"
   >
     <div class="flex flex-col items-center drop-shadow-lg">
