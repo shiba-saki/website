@@ -29,6 +29,7 @@
     "@vueuse/nuxt": "^10.2.0",
     "animate.css": "^4.1.1",
     "clsx": "^1.2.1",
-    "dayjs": "^1.11.8"
+    "dayjs": "^1.11.8",
+    "vue3-carousel": "^0.3.1"
   }
 }
