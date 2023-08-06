@@ -33,10 +33,10 @@ onUnmounted(() => clearInterval(intervalId))
 <template>
   <!-- eslint-disable tailwindcss/no-custom-classname -->
   <div
-    class="flex h-screen w-screen flex-col items-center justify-center bg-black/50 bg-[url('/cover.jpg')] bg-cover bg-[center_25%] bg-blend-multiply"
+    class="relative flex h-screen flex-col items-center justify-center bg-black/50 bg-[url('/cover.jpg')] bg-cover bg-[center_25%] bg-blend-multiply"
   >
     <div class="flex flex-col items-center drop-shadow-lg">
-      <h1 class="font-mono text-7xl font-medium text-white">嘿！呱們～</h1>
+      <SHeading h1 class="text-white">嘿！呱們～</SHeading>
       <h2 class="mt-2 font-mono text-4xl font-semibold text-white">吃早餐了嗎？</h2>
     </div>
     <div class="mt-8 flex gap-4">
@@ -49,5 +49,6 @@ onUnmounted(() => clearInterval(intervalId))
         <p class="">{{ date.type }}</p>
       </div>
     </div>
+    <img src="/mask-bottom.png" alt="mask" class="absolute bottom-0" />
   </div>
 </template>
