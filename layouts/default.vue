@@ -1,12 +1,23 @@
+<script setup lang="ts">
+const { cover } = useAppConfig()
+</script>
+
 <template>
-  <div class="py-10 m-auto bg-white sm:px-8 ring-1 ring-gray-200 dark:ring-gray-700 dark:bg-primary-800 sm:rounded">
-  c8c8c8c8c
-    <main class="max-w-2xl px-4 mx-auto sm:px-8">
-      <slot>
-        <h1 class="text-2xl">
-          Page not found
-        </h1>
-      </slot>
-    </main>
+  <div>
+    <Html lang="zh-TW" />
+    <Meta property="og:image" :content="cover" />
+    <Meta name="twitter:card" content="summary_large_image" />
+    <AppLoadingBar />
+    <!-- <AppNavbar /> -->
+    <slot />
   </div>
+  <NuxtLink to="#header" class="fixed bottom-4 right-4 block w-20 opacity-50 hover:opacity-100" replace>
+    <img src="assets/logo.png" alt="logo" />
+  </NuxtLink>
 </template>
+
+<style lang="postcss">
+body {
+  @apply bg-primary-50 text-black dark:bg-primary-900 dark:text-white;
+}
+</style>

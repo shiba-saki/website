@@ -5,9 +5,9 @@ import 'animate.css'
 
 <template>
   <SLoading />
-  <AppLayout>
+  <NuxtLayout>
     <NuxtPage />
-  </AppLayout>
+  </NuxtLayout>
 </template>
 
 <style>
