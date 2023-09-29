@@ -19,23 +19,23 @@ const element = computed(() => {
     case props.h1:
       return {
         tag: 'h1',
-        class: 'font-mono text-7xl font-medium',
+        class: 'text-7xl font-bold text-teal-700 shadow-white text-shadow',
       }
     case props.h3:
       return {
         tag: 'h3',
-        class: 'font-semibold',
+        class: 'font-bold text-shadow-border shadow-white text-teal-700',
       }
     case props.h4:
       return {
         tag: 'h4',
-        class: 'font-semibold',
+        class: 'font-bold text-shadow-border shadow-white text-teal-700',
       }
     case props.h2:
     default:
       return {
         tag: 'h2',
-        class: 'py-6 text-center text-5xl font-semibold',
+        class: 'py-6 text-center text-5xl font-bold text-teal-700 shadow-white text-shadow-border',
       }
   }
 })
