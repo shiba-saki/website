@@ -1,8 +1,13 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-family: cwTeXYen, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
   /* rename box-shadow */
   .layer-0 {
     @apply border border-black/[.05] shadow-0-layer;
