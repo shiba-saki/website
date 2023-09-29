@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', 'nuxt-lazy-load'],
+  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', 'nuxt-lazy-load', '@pinia/nuxt'],
   extends: 'content-wind',
   colorMode: {
     preference: 'light', // default value of $colorMode.preference
@@ -22,5 +22,13 @@ export default defineNuxtConfig({
     loadingClass: 'isLoading',
     returnedClass: 'isLoaded',
     appendClass: 'lazyLoad',
+  },
+
+  pinia: {
+    autoImports: [
+      // automatically imports `defineStore`
+      'defineStore', // import { defineStore } from 'pinia'
+      ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
+    ],
   },
 })
