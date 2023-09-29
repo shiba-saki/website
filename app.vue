@@ -4,6 +4,7 @@ import 'animate.css'
 </script>
 
 <template>
+  <SLoading />
   <AppLayout>
     <NuxtPage />
   </AppLayout>

@@ -8,9 +8,9 @@ export default defineNuxtConfig({
   },
 
   lazyLoad: {
-    images: true,
-    videos: true,
-    audios: true,
+    images: false,
+    videos: false,
+    audios: false,
     iframes: false,
     native: false,
     directiveOnly: true,
