@@ -49,7 +49,7 @@ for (let i = 0; i < imageList.length && i < textList.length; i++) {
 
 <template>
   <div class="py-6">
-    <SHeading class="text-zinc-800">柴崎楓音介紹</SHeading>
+    <SHeading class="">柴崎楓音介紹</SHeading>
     <Carousel :items-to-show="1">
       <Slide v-for="(item, index) in combinedList" :key="index">
         <div class="flex items-center bg-white bg-opacity-75">
@@ -60,7 +60,7 @@ for (let i = 0; i < imageList.length && i < textList.length; i++) {
 
           <!-- 右半部分顯示文字 -->
           <div class="w-3/5 text-left">
-            <p v-html="item.text" style="color: #007267"></p>
+            <p style="color: #007267" v-html="item.text"></p>
           </div>
         </div>
       </Slide>
