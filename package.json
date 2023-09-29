@@ -30,6 +30,7 @@
     "animate.css": "^4.1.1",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.8",
+    "nuxt-lazy-load": "^3.0.4",
     "vue3-carousel": "^0.3.1"
   }
 }
