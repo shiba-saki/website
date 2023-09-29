@@ -12,7 +12,7 @@ const { cover } = useAppConfig()
     <slot />
   </div>
   <NuxtLink to="#header" class="fixed bottom-4 right-4 block w-20 opacity-50 hover:opacity-100" replace>
-    <img src="/logo.png" alt="logo" />
+    <img src="assets/logo.png" alt="logo" />
   </NuxtLink>
 </template>
 

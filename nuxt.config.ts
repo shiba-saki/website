@@ -13,10 +13,10 @@ export default defineNuxtConfig({
     audios: true,
     iframes: false,
     native: false,
-    directiveOnly: false,
+    directiveOnly: true,
 
     // 預設圖片必須位於公用資料夾中
-    defaultImage: '/img/logo.png',
+    defaultImage: '/assets/logo.png',
 
     // 刪除類別設定值為 false
     loadingClass: 'isLoading',
