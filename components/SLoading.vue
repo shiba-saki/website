@@ -13,7 +13,7 @@ const store = useLoadingStore()
       class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-white bg-[url('/assets/loading.jpg')] bg-cover bg-[center_25%]"
     >
       <video autoplay muted playsinline class="h-full w-full object-cover" @ended="store.playing = false">
-        <source src="assets/loading.mp4" type="video/mp4" />
+        <source src="/assets/loading.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
