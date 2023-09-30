@@ -5,6 +5,7 @@ const { cover } = useAppConfig()
 <template>
   <div>
     <Html lang="zh-TW" />
+    <Title>柴崎楓音 - 呱呱們的快樂柴犬</Title>
     <Meta property="og:image" :content="cover" />
     <Meta name="twitter:card" content="summary_large_image" />
     <AppLoadingBar />
