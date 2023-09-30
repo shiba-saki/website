@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const links = computed(() => {
   return [
     { name: '首頁', url: '/' },
-    { name: '二創區', url: '/second' },
+    // { name: '二創區', url: '/derivative' },
     { name: '成員', url: '/member' },
   ]
 })

@@ -88,7 +88,7 @@ const { stop } = useIntersectionObserver(menuRef, ([{ isIntersecting }]) => {
     <div
       ref="menuRef"
       class="flex flex-1 items-center overflow-hidden rounded-md"
-      :class="{ 'animate__animated animate__slideInLeft animate__delay-2s animate__slow': menuIsVisible }"
+      :class="{ 'animate__animated animate__slideInRight animate__delay-2s animate__slow': menuIsVisible }"
     >
       <img v-if="menuIsVisible" src="/assets/menu.jpg" alt="menu" />
     </div>
