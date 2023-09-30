@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HeroPhoto from './components/HeroPhoto.vue'
+import ShibasakiTimer from './components/ShibasakiTimer.vue'
 import ProjectList from './components/ProjectList.vue'
 import Introduce from './components/Introduce.vue'
 </script>
@@ -8,7 +9,8 @@ import Introduce from './components/Introduce.vue'
   <HeroPhoto />
   <div class="relative bg-[url('/5w.png')] bg-cover bg-fixed bg-center">
     <div class="absolute inset-0 bg-blend-multiply backdrop-blur" />
-    <div class="mx-auto max-w-5xl backdrop-blur">
+    <div class="mx-auto max-w-5xl backdrop-blur-0">
+      <ShibasakiTimer />
       <Introduce />
       <ProjectList />
     </div>
