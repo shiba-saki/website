@@ -35,7 +35,7 @@ const element = computed(() => {
     default:
       return {
         tag: 'h2',
-        class: 'py-6 text-center text-5xl font-bold text-teal-700 shadow-white text-shadow-border',
+        class: 'py-6 text-center text-6xl font-bold text-teal-700 shadow-white text-shadow-border',
       }
   }
 })
