@@ -1,17 +1,21 @@
 <script lang="ts" setup>
 import { Carousel, Navigation, Pagination, Slide } from 'vue3-carousel'
 
-const list = reactive<{ html?: string; src?: string }[]>([
+const list = reactive<{ id: string; html?: string; src?: string }[]>([
   {
+    id: 'smRLZos5pjY',
     html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/smRLZos5pjY?si=PaXQ2AUNxgG9t2_V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
+    id: 'UNHV3xLILEg',
     html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/UNHV3xLILEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
+    id: 'x_pf7CotP0I',
     html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/x_pf7CotP0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
+    id: 'cL4iVjNA3dY',
     html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cL4iVjNA3dY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 ])

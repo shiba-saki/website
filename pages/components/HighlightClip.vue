@@ -35,9 +35,6 @@ const list = reactive<{ html?: string; src?: string; id: string }[]>([
     html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/6DmsW-Xrj0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 ])
-function getImgUrl(id: string) {
-  return `https://i.ytimg.com/vi_webp/${id}/maxresdefault.webp`
-}
 
 const currentSlide = ref(0)
 

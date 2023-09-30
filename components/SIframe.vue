@@ -1,24 +1,32 @@
 <script setup lang="ts">
-withDefaults(
+const props = withDefaults(
   defineProps<{
     html?: string
     width?: string | number
     height?: string | number
     src?: string
     title?: string
+    id: string
   }>(),
   {
     html: '',
     width: '560',
     height: '315',
-    src: 'https://www.youtube.com/embed/UNHV3xLILEg',
+    src: 'https://www.youtube.com/embed/smRLZos5pjY',
     title: 'YouTube video player',
+    id: 'smRLZos5pjY',
   }
 )
+const previewImg = getImgUrl(props.id)
+const iframeHtml = /* html */ `
+  <img src="${previewImg}" class="absolute left-0 top-0 h-full w-full" />
+  ${props.html}
+`
 </script>
 
 <template>
   <div v-if="!html" class="video-container">
+    <img :src="previewImg" class="absolute left-0 top-0 h-full w-full" />
     <slot>
       <iframe
         :width="width"
@@ -31,7 +39,7 @@ withDefaults(
       ></iframe>
     </slot>
   </div>
-  <div v-else class="video-container" v-html="html" />
+  <div v-else class="video-container" v-html="iframeHtml" />
 </template>
 
 <style scoped>
