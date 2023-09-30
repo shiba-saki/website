@@ -21,7 +21,7 @@ const list = reactive<{ html?: string; src?: string }[]>([
   <div class="py-6">
     <SHeading>早安柴之美</SHeading>
     <Carousel :items-to-show="1">
-      <Slide v-for="item in list" :key="item.html || item.src">
+      <Slide v-for="item in list" :key="item.html || item.src" class="overflow-hidden rounded-lg">
         <SIframe class="w-full" v-bind="item" />
       </Slide>
 

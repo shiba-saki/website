@@ -51,7 +51,7 @@ function slideTo(val: number) {
     <SHeading>柴崎楓音烤肉精華</SHeading>
 
     <Carousel v-model="currentSlide" :items-to-show="1" :wrap-around="true">
-      <Slide v-for="item1 in list" :key="item1.html || item1.src">
+      <Slide v-for="item1 in list" :key="item1.html || item1.src" class="overflow-hidden rounded-lg">
         <SIframe class="w-full" v-bind="item1" />
       </Slide>
 
@@ -62,10 +62,8 @@ function slideTo(val: number) {
 
     <Carousel id="thumbnails" v-model="currentSlide" :items-to-show="4" :wrap-around="true">
       <Slide v-for="(item, index) in list" :key="item.html || item.src">
-        <div class="p-1">
+        <div class="m-1 overflow-hidden rounded-lg">
           <img :src="getImgUrl(item.id)" @click="slideTo(index)" />
-          <!-- <div class="absolute inset-0" @click="slideTo(index)" /> -->
-          <!-- <SIframe class="carousel__item w-full" v-bind="item" /> -->
         </div>
       </Slide>
     </Carousel>
