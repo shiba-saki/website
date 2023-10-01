@@ -19,7 +19,7 @@ const isSafari = useSafari()
       >
         <SHeading h1>柴崎楓音</SHeading>
         <SHeading h3 class="mb-4 text-5xl">呱們的快樂柴犬</SHeading>
-        <div class="text-2xl font-bold text-teal-500 shadow-gray-300 text-shadow-border sm:text-3xl">
+        <div class="text-2xl font-bold text-teal-600 shadow-gray-300 text-shadow-border sm:text-3xl">
           <p>來跟我一起吃吃早餐聊聊天吧✨</p>
           <p>還有好多想一起做的事情呢…🍁</p>
         </div>

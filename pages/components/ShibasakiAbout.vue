@@ -69,6 +69,10 @@ const aboutCards = [
     content: '長途散步，足跡遍布全台灣，更內建 GPS 的超認路柴犬',
     imgFile: 'pet_gps_dog.png',
   },
+  {
+    content: '會化身為收集老奶奶的饅頭小柴犬',
+    imgFile: 'girl.png',
+  },
 ]
 const { el: photoRef, displayed: photoDisplayed } = useElementDisplayed()
 const { el: cardsRef, displayed: cardsDisplayed } = useElementDisplayed()
