@@ -24,5 +24,5 @@ import BreakfastshopMember from './member/components/BreakfastshopMember.vue'
     <HighlightClip />
     <MessageBoard />
   </SContainer>
-  <BreakfastshopMember></BreakfastshopMember>
+  <BreakfastshopMember />
 </template>
