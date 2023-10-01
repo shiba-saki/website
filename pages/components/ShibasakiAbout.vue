@@ -138,8 +138,11 @@ function getDealyClass(index: number) {
       </ul>
 
       <SHeading>呱呱真情推薦</SHeading>
-      <div class="m-4 mx-auto flex flex-1 flex-row items-center justify-center rounded-md bg-teal-50 p-8 md:flex-col">
-        <div class="w-96 overflow-hidden rounded-lg" :class="{ 'animate__animated animate__wobble': photoDisplayed }">
+      <div class="m-4 mx-auto flex flex-1 flex-col items-center justify-center rounded-md bg-teal-50 p-8">
+        <div
+          class="max-w-xs overflow-hidden rounded-lg"
+          :class="{ 'animate__animated animate__wobble': photoDisplayed }"
+        >
           <img :src="getImgPath('phone.png')" alt="笑容" class="object-fit" />
         </div>
         <SHeading ref="photoRef" h4 class="m-4 flex-1 text-center text-xl">
