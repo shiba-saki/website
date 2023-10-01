@@ -9,7 +9,7 @@
     <div class="flex flex-col items-center drop-shadow-lg">
       <h5 class="mt-2 text-4xl font-semibold text-white">店長：六伊</h5>
       <h5 class="mt-2 text-4xl font-semibold text-white">總監：蚊香</h5>
-      <h5 class="mt-2 text-4xl font-semibold text-white">美術：阿本、哆啦、冰霜夜雨、凌最、鬼哥</h5>
+      <h5 class="mt-2 text-4xl font-semibold text-white">美術：阿本、X5哆啦、冰霜夜雨、凌最、鬼哥</h5>
       <h5 class="mt-2 text-4xl font-semibold text-white">表情、音效管理顧問：冰霜夜雨</h5>
       <h5 class="mt-2 text-4xl font-semibold text-white">影片總監：海絲、ㄅㄌ</h5>
       <h5 class="mt-2 text-4xl font-semibold text-white">網路總監：排氣管</h5>

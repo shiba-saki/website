@@ -1012,7 +1012,7 @@
     unimport "^3.0.8"
     untyped "^1.3.2"
 
-"@nuxt/kit@^3.1.2":
+"@nuxt/kit@^3.1.2", "@nuxt/kit@^3.7.3":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.7.4.tgz#31c0bd57397cc56a1098af5d6504353cc2e855a2"
   integrity sha512-/S5abZL62BITCvC/TY3KWA6N721U1Osln3cQdBb56XHIeafZCBVqTi92Xb0o7ovl72mMRhrKwRu7elzvz9oT/g==
@@ -1179,6 +1179,14 @@
     "@nuxt/kit" "^3.5.3"
     lodash.template "^4.5.0"
     pathe "^1.1.1"
+
+"@nuxtjs/device@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/device/-/device-3.1.1.tgz#51fa2308c365323b9f3cce923dbebd40cdffe7ac"
+  integrity sha512-wHTziEevt1hdgePQwPhEedWW3COalhP0YGVB+sGLqSrKujX8vdz7lcBFB01KIftpaP8kY5H8pssibNaJbxGcYw==
+  dependencies:
+    "@nuxt/kit" "^3.7.3"
+    defu "^6.1.2"
 
 "@nuxtjs/tailwindcss@^6.7.0":
   version "6.8.0"

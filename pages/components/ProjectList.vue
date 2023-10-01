@@ -23,7 +23,10 @@ const list = reactive<{ id: string; html?: string; src?: string }[]>([
 
 <template>
   <div class="py-6">
-    <SHeading>早安柴之美</SHeading>
+    <SHeading>
+      早安柴之美
+      <span class="block text-4xl">特別企劃</span></SHeading
+    >
     <Carousel :items-to-show="1">
       <Slide v-for="item in list" :key="item.html || item.src" class="overflow-hidden rounded-lg">
         <SIframe class="w-full" v-bind="item" />

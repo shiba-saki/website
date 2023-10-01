@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', 'nuxt-lazy-load', '@pinia/nuxt'],
+  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', 'nuxt-lazy-load', '@pinia/nuxt', '@nuxtjs/device'],
   extends: 'content-wind',
   colorMode: {
     preference: 'light', // default value of $colorMode.preference

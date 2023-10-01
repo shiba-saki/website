@@ -1,17 +1,18 @@
 <script setup lang="ts">
 const store = useLoadingStore()
+const isSafari = useSafari()
 </script>
 
 <template>
   <!-- eslint-disable tailwindcss/no-custom-classname -->
   <div
     id="header"
-    :key="Date.now()"
-    class="relative flex h-screen items-center justify-center bg-[url('/assets/20230813.jpg')] bg-cover bg-fixed lg:bg-teal-50 lg:bg-[url('/assets/bg.png')]"
+    class="relative flex h-screen items-center justify-center bg-[url('/assets/20230813.jpg')] bg-cover bg-center lg:bg-teal-50 lg:bg-[url('/assets/bg.png')]"
+    :class="{ 'bg-fixed': !isSafari }"
   >
     <template v-if="store.isLoaded">
       <div
-        class="animate__animated animate__fadeInLeft hidden h-full flex-1 overflow-hidden bg-[url('/assets/20230813.jpg')] bg-cover bg-fixed lg:block"
+        class="animate__animated animate__fadeInLeft hidden h-full flex-1 overflow-hidden bg-[url('/assets/20230813.jpg')] bg-cover bg-center lg:block"
       />
       <article
         class="animate__animated animate__zoomIn animate__slower self-end rounded-lg bg-teal-50/75 p-8 pb-16 lg:self-center lg:p-12 xl:p-24"

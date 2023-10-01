@@ -68,9 +68,9 @@ const { stop } = useIntersectionObserver(menuRef, ([{ isIntersecting }]) => {
       class="flex flex-1 flex-col items-center justify-center py-8"
       :class="{ 'animate__animated animate__wobble': menuIsVisible }"
     >
-      <SHeading class="pb-2">不先來份早餐嗎？</SHeading>
+      <SHeading class="pb-2">來份早餐嗎？</SHeading>
       <div class="text-2xl text-teal-800">
-        <p class="text-3xl font-bold">來點份柴柴喜歡的食物吧！</p>
+        <p class="text-3xl font-bold">點一份柴柴精選推薦如何</p>
         <p class="mt-8">這些可是本店的招牌</p>
         <ul class="list-decimal pl-10">
           <li>燻雞可頌不加蛋</li>
