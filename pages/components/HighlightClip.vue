@@ -45,7 +45,13 @@ function slideTo(val: number) {
 
 <template>
   <div class="py-6">
-    <SHeading>柴崎楓音烤肉精華</SHeading>
+    <SHeading>柴崎楓音烤肉精華剪輯</SHeading>
+    <p class="mb-4 rounded-lg bg-teal-50/70 p-8 text-center text-xl text-teal-600 shadow-white text-shadow-border">
+      特別感謝三位烤肉 Man 熱情分享與推薦:<br />
+      <a class="underline" target="_blank" href="https://twitter.com/Yi_yuss">伊鬱</a><br />
+      <a class="underline" target="_blank" href="https://twitter.com/i_love_dd_0u0">としき DD烤肉桑</a><br />
+      <a class="underline" target="_blank" href="https://twitter.com/mokiChen1">墨櫻moki💎博祈達bokida❄️</a>
+    </p>
 
     <Carousel v-model="currentSlide" :items-to-show="1" :wrap-around="true">
       <Slide v-for="item1 in list" :key="item1.html || item1.src" class="overflow-hidden rounded-lg">

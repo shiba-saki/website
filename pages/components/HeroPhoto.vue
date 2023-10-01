@@ -7,7 +7,7 @@ const isSafari = useSafari()
   <!-- eslint-disable tailwindcss/no-custom-classname -->
   <div
     id="header"
-    class="relative flex h-screen items-center justify-center bg-[url('/assets/20230813.jpg')] bg-cover bg-center lg:bg-teal-50 lg:bg-[url('/assets/bg.png')]"
+    class="relative flex h-screen items-center justify-center bg-[url('/assets/20230813.jpg')] bg-cover bg-center lg:bg-teal-50 lg:bg-[url('/assets/bg.png')] lg:bg-contain lg:bg-repeat"
     :class="{ 'bg-fixed': !isSafari }"
   >
     <template v-if="store.isLoaded">
