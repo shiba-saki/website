@@ -9,7 +9,7 @@ const { cover } = useAppConfig()
     <Meta property="og:image" :content="cover" />
     <Meta name="twitter:card" content="summary_large_image" />
     <AppLoadingBar />
-    <AppNavbar />
+    <!-- <AppNavbar /> -->
     <slot />
   </div>
   <a href="#" class="fixed bottom-4 right-4 block w-20 opacity-50 hover:opacity-100">

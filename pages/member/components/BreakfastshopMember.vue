@@ -6,6 +6,7 @@
     id="header"
     class="relative flex h-screen flex-col items-center justify-center bg-black/50 bg-[url('/cover.jpg')] bg-cover bg-[center_25%] bg-blend-multiply"
   >
+    <SHeading>早餐店成員列表</SHeading>
     <div class="flex flex-col items-center drop-shadow-lg">
       <h5 class="mt-2 text-4xl font-semibold text-white">店長：六伊</h5>
       <h5 class="mt-2 text-4xl font-semibold text-white">總監：蚊香</h5>
